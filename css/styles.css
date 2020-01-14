@@ -1,0 +1,244 @@
+/* styles for home */
+.container{
+  flex-wrap: wrap 400px;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat (1,1fr);
+    justify-items:center;
+  font-family: menco, sans-serif;
+font-style: medium;
+font-size: 14pt;
+font-weight: 100;
+list-style: none;
+margin: 0;
+  }
+@-ms-viewport{
+    width:device-width;
+}
+ .header{
+  grid-column:1/1;
+  grid-row: 1/1;
+  padding: 0px;
+justify-items: left;
+     font-size: 24pt
+}
+a:link {
+text-decoration: none;
+font-weight: 100;
+font-size:16pt;
+line-height: 27pt;
+color:black;
+}
+a:visited {
+color:black;
+text-decoration: none;
+font-weight: 100;
+}
+a:hover {
+color:#F73179;
+text-decoration: none;
+font-weight: 100; 
+}
+
+.h1{
+line-height: 36pt;
+}
+.linktab{
+justify-items: center;
+font-size:20pt; 
+line-height: 27pt;
+      }
+.price{
+    font-size: 16pt;
+    font-weight: 300;
+    margin-top: 0px; 
+}
+.p{
+    font-size: 16pt;
+    font-weight: 300;
+    
+}
+p span{
+    padding: 40px;
+}
+h2 span{
+    padding: 20px;
+}
+h3 span{
+    padding-right: 20px;
+}
+.h2{
+    padding: 20px;
+font-size: 20pt:;
+margin-bottom: 0px;
+}
+.description{
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 26pt;
+}  
+.paninis{
+    line-height: 27pt;
+    font-size: 16pt;
+    width: 80%;
+}
+.hours{
+    font-weight: 300;
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 27pt;
+    }
+
+
+
+@media only screen and (min-width:800px){
+  .container{
+  flex-wrap: wrap 500px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat (8,1fr);
+  grid-gap: 5px;
+  font-size: 24pt;
+    font-weight: 300;
+    line-height: 2pt;
+}
+  .header{
+  grid-column:1/1;
+  grid-row: 1/1;
+justify-items: left;
+font-size: 24pt;
+    font-weight: 300;
+    line-height: 39pt;
+}
+.linktab{
+    grid-column:2/2;
+    grid-row: 1/1;
+    justify-items: center;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+    }
+ .drinktitle{
+  grid-column:1/3;
+  grid-row: 3/3;
+     justify-items: center;
+     padding: 20px;
+  }
+ .foodtitle{
+  grid-column:1/3;
+  grid-row: 7/7;
+    justify-items: center;
+    padding: 20px;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+  }
+.hot{
+  grid-column:1/1;
+  grid-row: 4/4;
+    justify-items: left;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+}
+.cold{
+  grid-column:2/2;
+  grid-row: 4/4;
+    justify-items: left;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+}
+.eats{
+  grid-column:1/1;
+  grid-row:8/8;
+    justify-items: left;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+}
+.seasonal{
+  grid-column:2/2;
+  grid-row:5/5;
+    justify-items: left;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+}
+.additions{
+  grid-column:1/1;
+  grid-row:5/5;
+    justify-items: center;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+}
+.paninis{
+  grid-column:2/2;
+  grid-row:8/8;
+    justify-items: center;
+    width: 80%;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+}
+.hours{
+  grid-column:2/2;
+  grid-row:10/10;
+    justify-items: center;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 15pt;
+}
+.location{ 
+  grid-column:1/1;
+  grid-row:10/10;
+    justify-items: center;
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+}
+.image{grid-column:1/3;
+  grid-row:2/2;
+    justify-items: center;
+    }
+.image2{grid-column:1/3;
+  grid-row:6/6;
+    justify-items: center;
+    }
+    .image3{grid-column:1/3;
+  grid-row:9/9;
+    justify-items: center;
+    }
+.price{
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+}
+.description{
+    font-size: 24pt;
+    font-weight: 300;
+    line-height: 27pt;
+}
+.link{
+    grid-column:1/3;
+  grid-row:11/11;
+    justify-items: right;
+    padding: 20px;
+    }
+a:link {
+  text-decoration: none;
+font-weight: 100;
+font-size:18pt;
+line-height: 27pt;
+color:black;    
+}
+a:hover {
+color:#FF7F11;
+text-decoration: none;
+font-weight: 100; 
+}
+
+ 
+
+
